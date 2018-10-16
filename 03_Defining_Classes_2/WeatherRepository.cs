@@ -19,5 +19,10 @@ namespace _03_Defining_Classes_2
         {
             _weatherList.Add(item);
         }
+
+        public List<Weather> GetWeatherList()
+        {
+            return _weatherList;
+        }
     }
 }

@@ -1,0 +1,10 @@
+﻿Komodo needs a customer queue for when a customer calls in
+and needs some help. This will put the first caller at the
+top of the the queue. Each consecutive caller will go in the
+next spot below the previous customer. 
+
+They will need a method that will allow agents to peek at the next person in the queue to check
+to see what their question is in advance. 
+
+After a customer has been served they also need to be
+removed from the queue, and the next customer will 
